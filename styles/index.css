@@ -80,9 +80,6 @@ img{
     padding-right: 10%;
 }
 
-
-
-
 /*Css for Section 1 of the index */
 
 .Section_1{
@@ -162,6 +159,8 @@ img{
 /* Css for Section 2 of the index */
 #Section2 {
 	text-align: center;
+	width: 75%;
+	margin: auto;
 }
 
 .flex-image-container {
@@ -189,6 +188,7 @@ img{
 	border: 3px blue;
 	border-style: solid;
 	border-radius: 10%;
+	padding: 0px;
 }
 
 .main-image figcaption{
