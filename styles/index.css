@@ -4,6 +4,85 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/*Css for Section 1 of the index */
+
+.Section_1{
+	background-color: #1F2939;
+    padding-left: 2%;
+}
+
+.Navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7%;
+}
+
+.Headers{
+    display: flex; 
+    justify-content: space-between;
+    width: 450px;
+    padding-top: 2%;
+}
+
+h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.Header_body{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.HeaderLink1{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 150px;
+}
+
+.HeaderLink2{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 150px;
+}
+
+.HeaderLink3{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 150px;
+}
+
+.Header_title{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.Header_text{
+    font-size: 18px;
+    color: #E5E7EB;  
+    padding-bottom: 2%
+}
+
+button{
+    padding: .8em 2em;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-size: .8em;
+}
+
+img{
+    height: 190px;
+    width: 300px;
+    padding-right: 10%;
+}
+
+
+
+
 /* Css for Section 2 of the index */
 #Section2 {
 	text-align: center;
@@ -31,7 +110,7 @@ body {
 .main-image img {
 	width: 100%;
 	height: 15em;
-	border: 6px #3882f6;
+	border: 3px blue;
 	border-style: solid;
 	border-radius: 10%;
 }
