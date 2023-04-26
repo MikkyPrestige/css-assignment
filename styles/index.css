@@ -80,9 +80,6 @@ img{
     padding-right: 10%;
 }
 
-
-
-
 /* Css for Section 2 of the index */
 #Section2 {
 	text-align: center;
@@ -110,7 +107,7 @@ img{
 .main-image img {
 	width: 100%;
 	height: 15em;
-	border: 3px blue;
+	border: 6px #3882f6;
 	border-style: solid;
 	border-radius: 10%;
 }
