@@ -28,43 +28,43 @@ body {
     justify-content: space-evenly;
 }
 
-.header_logo {
+.header-logo {
     display: flex;
     align-items: center;
 }
 
-.header_logo img {
+.header-logo img {
     height: 50px;
     width: 50px;
     border-radius: 15%; 
 }
 
-.header_logo p {
+.header-logo p {
     width: 120px;
     padding-left: 5px;
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.header_link {
+.header-link {
     font-size: 18px;
     color: #E5E7EB;
     align-self: center;
 }
 
-.header_link:link {
+.header-link:link {
     text-decoration: none;
 }
 
-.header_link:visited {
+.header-link:visited {
     text-decoration: none;
 }
 
-.header_link:hover {
+.header-link:hover {
     text-decoration: underline;
 }
 
-.header_link:active {
+.header-link:active {
     text-decoration:none;
 }
 
