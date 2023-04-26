@@ -4,6 +4,70 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+/* CSS for page header */
+.header {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	background-color: #1F2939;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+.header nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 15%; 
+}
+
+.header-logo p {
+    width: 120px;
+    padding-left: 5px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+    align-self: center;
+}
+
+.header-link:link {
+    text-decoration: none;
+}
+
+.header-link:visited {
+    text-decoration: none;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+}
+
+.header-link:active {
+    text-decoration:none;
+}
+
 /*Css for Section 1 of the index */
 
 .Section_1{
@@ -11,7 +75,7 @@ body {
     padding-left: 2%;
 }
 
-.Navigation{
+/* .Navigation{
     display: flex;
     justify-content: space-between;
     padding-bottom: 7%;
@@ -22,7 +86,7 @@ body {
     justify-content: space-between;
     width: 450px;
     padding-top: 2%;
-}
+} */
 
 h1{
     font-size: 24px;
@@ -35,7 +99,7 @@ h1{
     padding-bottom: 2%;
 }
 
-.HeaderLink1{
+/* .HeaderLink1{
     font-size: 18px;
     color: #E5E7EB;
     width: 150px;
@@ -51,7 +115,7 @@ h1{
     font-size: 18px;
     color: #E5E7EB;
     width: 150px;
-}
+} */
 
 .Header_title{
     font-size: 48px;
@@ -74,7 +138,7 @@ button{
     font-size: .8em;
 }
 
-img{
+.Section_1 img{
     height: 190px;
     width: 300px;
     padding-right: 10%;
@@ -193,4 +257,16 @@ img{
 
 .main-image figcaption{
 	color: #5e5f61;
+}
+
+/* CSS for page footer */
+.footer {
+    height: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	background-color: #1F2939;
+    display: flex;
+    justify-content: center;
 }
