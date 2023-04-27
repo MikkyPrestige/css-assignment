@@ -13,15 +13,12 @@ body {
 
 /* CSS for page header */
 header {
-	padding-left: 2%;
-	padding-right: 2%;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	background-color: #1F2939;
-    display: flex;
-    justify-content: center;
 }
 .header {
+    margin: auto;
     height: 50px;
     width: 75%;
 	display: flex;
@@ -172,7 +169,6 @@ button{
 
 /* CSS for section 3 of index */
 .section-3 {
-    margin:auto;
     height: 250px;
 	background-color: #E5E7EB;
     display: flex;
@@ -182,6 +178,7 @@ button{
 /* Automatic slideshow */
 .review-slider {
     position: relative;
+    margin: auto;
     width: 50%;
     height: 100%;
     overflow: hidden;
@@ -237,14 +234,14 @@ button{
 
 /* CSS for page footer */
 footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
 	color: #F9FAF8;
 	background-color: #1F2939;
-	display: flex;
-	justify-content: center;
 }
 
 .footer {
-	height: 50px;
+    margin: auto;
     width: 75%;
     text-align: center;
 }

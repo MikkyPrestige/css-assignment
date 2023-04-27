@@ -77,38 +77,9 @@ header {
 }
 
 /* CSS for main part of the page */
-#OwenSection {
-	margin: auto;
-	width: 75%;
-}
-
-details {
-  margin: 1em;
-}
-
-details > summary:hover{
-  background-color: rgb(189, 189, 215);
-}
-  
-details > summary {
-	width: 85%;
-	padding: 6px;
-	background-color: #ddd;
-	border: none;
-	box-shadow: 3px 3px 4px black;
-	cursor: pointer;
-}
-  
-details > p {
-	border-radius: 0 10px 10px 10px;
-	background-color: #ddd;
-	padding: 10px;
-	margin: 0;
-	box-shadow: 3px 3px 4px black;
-}
-  
-  details[open] > summary {
-	background-color: #ccf;
+.main {
+    margin: auto;
+    width: 75%;
 }
 
 /* CSS for page footer */
