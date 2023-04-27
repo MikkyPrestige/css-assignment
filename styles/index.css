@@ -109,7 +109,6 @@ header {
   flex-direction: row;
   margin-left: 12%;
   padding-bottom: 2%;
-  padding-top: 5%;
 }
 
 @media (max-width: 800px){
@@ -122,6 +121,7 @@ header {
 	font-size: 48px;
 	color: #F9FAF8;
 	font-weight: 800;
+	margin-bottom: 0;
 }
 
 .hero-text {
@@ -187,7 +187,6 @@ header {
 /* CSS for section 3 of index */
 .section-3 {
   height: 250px;
-  width: 85%;
   background-color: #E5E7EB;
   display: flex;
   justify-content: center;
