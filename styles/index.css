@@ -18,9 +18,9 @@ header {
 	background-color: #1F2939;
 }
 .header {
-    margin: auto;
-    height: 50px;
-    width: 75%;
+	margin: auto;
+	height: 50px;
+	width: 75%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -88,7 +88,6 @@ header {
 
 .Section_1{
 	background-color: #1F2939;
-	padding-left: 2%;
 }
 
 h1{
@@ -99,6 +98,8 @@ h1{
 .Header_body{
 	display: flex;
 	justify-content: space-between;
+	width: 75%;
+	margin: auto;
 	padding-bottom: 2%;
 }
 
@@ -126,11 +127,10 @@ button{
 .headerImage{
 	height: 190px;
 	width: 300px;
-	padding-right: 10%;
 }
 
 /* Css for Section 2 of the index */
-#Section2 {
+.Section2 {
 	text-align: center;
 	width: 75%;
 	margin: auto;
