@@ -9,10 +9,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #F9FAF8;
-  width: 100%;
-  min-height: 100vh;
+	padding: 0;
+	background-color: #F9FAF8;
+	color: #1F2937;
+	font-size: 16px;
+	line-height: 1.5;
+	width: 100%;
+	min-height: 100vh;
 }
 
 /* CSS for page header */
@@ -23,11 +26,6 @@ header {
 }
 
 .header {
-	margin: auto;
-	height: 50px;
-	width: 75%;
-	display: flex;
-	justify-content: space-between;
   margin: auto;
   height: 50px;
   width: 75%;
@@ -50,10 +48,9 @@ header {
 }
 
 .header-logo {
-	margin: 0;
-	display: flex;
-    height: 100%;
-	align-items: center;
+  display: flex;
+  height: 100%;
+  align-items: center;
 }
 
 @media (max-width: 800px) {
@@ -67,10 +64,10 @@ header {
   border-radius: 10%;
 }
 
-.header-logo figcaption {
-	padding-left: 5px;
-	font-size: 24px;
-	color: #F9FAF8;
+.header-logo p {
+  padding-left: 5px;
+  font-size: 24px;
+  color: #F9FAF8;
 }
 
 .header-link {
@@ -97,8 +94,9 @@ header {
 
 /*Css for Section 1 of the index */
 
-.Section_1{
-	background-color: #1F2939;
+.Section_1 {
+  background-color: #1F2939;
+  padding-left: 2%;
 }
 
 h1 {
@@ -106,35 +104,51 @@ h1 {
   color: #F9FAF8;
 }
 
-.Header_body{
-	display: flex;
-	justify-content: space-between;
-	width: 75%;
-	margin: auto;
-	padding-bottom: 2%;
+.Header_body {
+  display: flex;
+  justify-content: center;
+	align-items: center;
+	height: 65vh;
+	width: 100%;
 }
 
-.Header_title{
-	font-size: 48px;
-	color: #F9FAF8;
-	font-weight: 800;
+.Header_content {
+}
+
+.Header_title {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 800;
 }
 
 .Header_text {
   font-size: 18px;
   color: #E5E7EB;
+  padding-bottom: 2%
 }
 
-.headerImage{
-	height: 190px;
-	width: 300px;
+.Header_btn {
+  padding: .8em 2em;
+  border-radius: 10px;
+  border: none;
+  background-color: #3882F6;
+  color: whitesmoke;
+  font-family: 'Lato', sans-serif;
+  font-size: .8em;
+}
+
+
+.headerImage {
+  height: 190px;
+  width: 300px;
+  /* padding-right: 10%; */
 }
 
 /* Css for Section 2 of the index */
-.Section2 {
-	text-align: center;
-	width: 75%;
-	margin: auto;
+#Section2 {
+  text-align: center;
+  width: 75%;
+  margin: auto;
 }
 
 .flex-image-container {
