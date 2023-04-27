@@ -107,8 +107,8 @@ header {
   justify-content: space-between;
   flex-wrap: nowrap;
   flex-direction: row;
-  margin-left: 12%;
-  padding-bottom: 2%;
+  width: 75%;
+  margin: auto;
 }
 
 @media (max-width: 800px){
@@ -135,15 +135,13 @@ header {
   border: 1px solid #F9FAF8;
   background-color: #3882F6;
   color: #F9FAF8;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto';
   font-size: 10px;
   
 }
 
 .hero-image{
 	height: 192px;
-	width: 100%;
-  margin-left: 20%;
 }
 
 /* Css for Section 2 of the index */
