@@ -232,7 +232,7 @@ h1 {
 .section4 {
   height: 100%;
   width: 100%;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 .section4-wrapper {
@@ -242,7 +242,7 @@ h1 {
   width: 60%;
   background-color: #3882F6;
   margin: 0 auto;
-  padding: 0 50px;
+	padding: ;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -274,28 +274,6 @@ h1 {
   color: #F9FAF8;
   font-family: 'Lato', sans-serif;
   font-size: 10px;
-}
-
-@media screen and (max-width: 600px) {
-  .section4-wrapper {
-    flex-direction: column;
-    width: 50%;
-    padding: 10px 0;
-  }
-
-  .section4-cta {
-    flex-basis: 100%;
-  }
-
-  .section4-cta__title {
-    font-size: 10px;
-  }
-
-  .section4-cta__subtitle {
-    font-size: 8px;
-    margin-top: -5px;
-    line-height: 12px;
-  }
 }
 
 @keyframes slider {

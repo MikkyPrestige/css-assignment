@@ -242,7 +242,7 @@ h1 {
   width: 60%;
   background-color: #3882F6;
   margin: 0 auto;
-  padding: 0 50px;
+	padding: 0 50px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -277,25 +277,22 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
-  .section4-wrapper {
-    flex-direction: column;
-    width: 50%;
-    padding: 10px 0;
-  }
+	.section4-wrapper {
+		flex-direction: column;
+		width: 50%;
+		padding: 10px 0;
+	}
+	.section4-cta {
+		flex-basis: 100%;
+	}
 
-  .section4-cta {
-    flex-basis: 100%;
-  }
+	.section4-cta__title {
+		font-size: 10px;
+	}
 
-  .section4-cta__title {
-    font-size: 10px;
-  }
-
-  .section4-cta__subtitle {
-    font-size: 8px;
-    margin-top: -5px;
-    line-height: 12px;
-  }
+	.section4-cta__subtitle {
+		font-size: 8px;
+	}
 }
 
 @keyframes slider {
