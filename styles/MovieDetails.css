@@ -1,7 +1,6 @@
 body {
 	margin: auto;
 	font-family: 'Roboto', sans-serif;
-	background-color: #1F2939;
 }
 
 /* CSS for page header */
@@ -82,7 +81,7 @@ header {
 .main {
     margin: auto;
     width: 75%;
-	background-color: #1F2939;
+	background-color: #a9abaf;
 }
 
 .empty-row{
@@ -91,6 +90,48 @@ header {
     display: flex;
     flex-wrap: wrap;
   }
+
+  /* The Dropdown Button 
+.locbtn {
+  background-color: #bcc4bc;
+  color: rgb(12, 7, 7);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-location {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-location a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-location a:hover {
+  background-color: #4b574b;
+}
+
+.dropdown:hover .dropdown-location {
+  display: block;
+}
+
+.dropdown:hover .locbtn {
+  background-color: #4b574b;
+} */
   
   .movie-showing{
     margin: auto;
@@ -100,7 +141,7 @@ header {
   }
 
   .section1{
-    background-color: #1F2939;
+    background-color: #a5afbe;
     width: 100%;
     margin: auto;
   }
@@ -126,14 +167,14 @@ header {
 
   .group1 h1{
     font-size: 25px;
-	color: #F9FAF8;
+	color: #141414;
 	font-weight: 800;
     max-width: 75%;
   }
 
   .group1 p{
     font-size: 18px;
-    color: #E5E7EB;
+    color: #28292b;
   }
 
 /* CSS for page footer */
