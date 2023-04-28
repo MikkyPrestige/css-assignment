@@ -1,6 +1,7 @@
 body {
 	margin: auto;
 	font-family: 'Roboto', sans-serif;
+	background-color: #1F2939;
 }
 
 /* CSS for page header */
@@ -81,7 +82,59 @@ header {
 .main {
     margin: auto;
     width: 75%;
+	background-color: #1F2939;
 }
+
+.empty-row{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-showing{
+    margin: auto;
+    font-size: 30px;
+    color: #F9FAF8;;
+    text-align: center;
+  }
+
+  .section1{
+    background-color: #1F2939;
+    width: 100%;
+    margin: auto;
+  }
+
+  .group1{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    }
+
+    @media (max-width: 800px) {
+        .group1{
+          flex-direction: column;
+        }
+      }
+
+      
+  .group1 figure img{
+    max-width: 100%;
+    height: 15em;
+    vertical-align: middle;
+  }
+
+  .group1 h1{
+    font-size: 25px;
+	color: #F9FAF8;
+	font-weight: 800;
+    max-width: 75%;
+  }
+
+  .group1 p{
+    font-size: 18px;
+    color: #E5E7EB;
+  }
 
 /* CSS for page footer */
 footer {
