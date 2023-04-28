@@ -61,15 +61,15 @@ header {
 	align-self: center;
 }
 
-.header-link:link {
+.header-link:link, .now-soon:link {
 	text-decoration: none;
 }
 
-.header-link:visited {
+.header-link:visited, .now-soon:visited {
 	text-decoration: none;
 }
 
-.header-link:hover {
+.header-link:hover, .now-soon:hover {
 	text-decoration: underline;
 }
 
@@ -133,56 +133,92 @@ header {
   background-color: #4b574b;
 } */
   
+.now-soon-grid {
+  background-color: #a5afbe;
+}
+
   .movie-showing{
+    display: flex;
+    flex-direction: row;
     margin: auto;
     font-size: 30px;
-    color: #F9FAF8;;
     text-align: center;
+    justify-content: center;
+  }
+
+  .movie-showing a,p {
+    height: auto;
+    margin: 0;
+    padding: 0.5em;
   }
 
   .section1{
-    background-color: #a5afbe;
+    background-color: #F9FAF8;
     width: 100%;
     margin: auto;
   }
 
-  .group1{
-    display: flex;
-    justify-content: space-evenly;
-    justify-content: space-between;
+  @media screen and (max-width: 500px) {
+    .movie {
+      padding: 0.5em;    
     }
-
-    @media (max-width: 800px) {
-        .group1{
-          flex-direction: column;
-        }
-      }
-
-      
-  .group1 figure img{
-    max-width: 100%;
-    height: 15em;
-    vertical-align: middle;
   }
 
-  .group1 h1{
+@media (max-width: 1200px) {
+    .now-showing {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+
+    .movie {
+      min-width: 45%;
+    }
+  }
+
+  .now-showing figure img{
+    max-width: 230px;
+    max-height: 335px;
+    width: auto;
+    height: auto;
+  }
+
+  .now-showing h1{
     font-size: 25px;
-	color: #141414;
-	font-weight: 800;
+    color: #141414;
+    font-weight: 800;
     max-width: 75%;
   }
 
-  .group1 p{
+  .now-showing p{
     font-size: 18px;
     color: #28292b;
+  }
+
+  figure p, h1, img {
+    margin: auto;
+    text-align: center;
+  }
+
+  .now-showing {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23%;
+    margin: 0.5em;
   }
 
 /* CSS for page footer */
 footer {
     padding-top: 10px;
     padding-bottom: 10px;
-	color: #F9FAF8;
-	background-color: #1F2939;
+    color: #F9FAF8;
+    background-color: #1F2939;
 }
 
 .footer {
