@@ -139,8 +139,14 @@ header {
   background-color: #4b574b;
 } */
 
-.now-soon-grid {
-  background-color: #a5afbe;
+h1 {
+  font-size: 3em;
+  font-weight: 800;
+  text-align: center;
+  background-color: #1f2939;
+  padding-bottom: 0.5em;
+  margin: 0;
+  color: #f9faf8;
 }
 
 .movie-showing {
