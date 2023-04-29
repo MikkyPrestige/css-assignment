@@ -84,18 +84,7 @@ header {
 #OwenSection {
   margin: auto;
   width: 75%;
-	min-height: 50vh;
-  padding: 10px;
-}
-
-h1 {
-  font-size: 4em;
-  font-weight: 800;
-  text-align: center;
-  background-color: #1f2939;
-  padding-bottom: 0.5em;
-  margin: 0;
-  color: #f9faf8;
+  height: 100vh;
 }
 
 details {
@@ -109,28 +98,22 @@ details>summary:hover {
 details>summary {
   width: 85%;
   padding: 6px;
-  background-color: #e5e7eb;
+  background-color: #ddd;
   border: none;
   box-shadow: 3px 3px 4px black;
   cursor: pointer;
-  font-weight: 800;
 }
 
-details>section {
+details>p {
   border-radius: 0 10px 10px 10px;
-  background-color: #e5e7eb;
+  background-color: #ddd;
   padding: 10px;
   margin: 0;
   box-shadow: 3px 3px 4px black;
 }
 
-section>p {
-  margin: 2px;
-}
-
 details[open]>summary {
-  background-color: #3882f6;
-  color: #E5E7EB;
+  background-color: #ccf;
 }
 
 /* CSS for page footer */
@@ -139,7 +122,6 @@ footer {
   padding-bottom: 10px;
   color: #F9FAF8;
   background-color: #1F2939;
-	bottom: 0;
 }
 
 .footer {
