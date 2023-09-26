@@ -5,4 +5,4 @@ This is the repo for the second week Brainnest assignment for the group consisti
 - Elue Michael
 - Owen Lenihan
 
-Live Url - https://meekyberry.github.io/css-assignment
+Live Url - [https://mikkyprestige.github.io/css-assignment](https://mikkyprestige.github.io/css-assignment)
